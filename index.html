@@ -1,0 +1,284 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="style/telegram.css">
+    <title>Telegram Web</title>
+    <link rel="shortcut icon" href="./images/telegram.jpeg" />
+</head>
+
+
+<div id="container">
+
+    <div class="mainHeader">
+        <div class="headLeft">
+            <div class="headImg">
+                <img src="./images/hamb.png">
+            </div>
+            <div class="headText">
+                <b>Telegram</b>
+            </div>
+        </div>
+        <div class="headCenter">
+            <div class="headText">
+                <b>Group Chat</b>  <a>5 members, 3 online</a>
+            </div>
+            <div class="headFind">
+                <div class="headImg">
+                    <img src="./images/search3.png">
+                </div>
+            </div>
+            <div class="headMenu">
+                <div class="headImg">
+                    <img src="./images/menu.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <aside>
+        <header>
+            <input type="text" placeholder="Search">
+        </header>
+        <ul>
+            <li>
+                <img src="./images/usr.jpeg">
+                <div class="chatInfo">
+                    <div class="leftChatInfo"> <b>User #1</b> </div>
+                    <div class="rightChatInfo"> 12:12 PM </div>
+                    <div class="dawnChatInfo"> Message #1  <img id="dopImg" src="./images/1_number.png"> </div>
+                </div>
+            </li>
+            <li>
+                <img src="./images/usr.jpeg">
+                <div class="chatInfo">
+                    <div class="leftChatInfo"> <b>User #2</b> </div>
+                    <div class="rightChatInfo"> 13:13 PM </div>
+                    <div class="dawnChatInfo"> 
+                        <img src="./images/smile7.jpg">
+                        <img src="./images/smile7.jpg">
+                        <img src="./images/smile7.jpg"> 
+                    </div>
+                </div>
+            </li>
+            <li id="selectedChat">
+                <img src="./images/groupChat.png">
+                <div class="chatInfo">
+                    <div class="leftChatInfo"> <b>Group Chat</b> </div>
+                    <div class="rightChatInfo"> 5:41 PM </div>
+                    <div class="dawnChatInfo"> Hello All </div>
+                </div>
+            </li>
+            <li>
+                <img src="./images/telegram.jpeg">
+                <div class="chatInfo">
+                    <div class="leftChatInfo"> <b>Telegram</b> </div>
+                    <div class="rightChatInfo"> 14:14 PM </div>
+                    <div class="dawnChatInfo"> Login code: ... </div>
+                </div>
+            </li>
+            <li>
+                <img src="./images/save image.png">
+                <div class="chatInfo">
+                    <div class="leftChatInfo"> <b>Saved Messages</b> </div>
+                    <div class="rightChatInfo"> 15:15 PM </div>
+                    <div class="dawnChatInfo"> My message </div>
+                </div>
+            </li>
+            <li>
+                <img src="./images/1.jpeg">
+                <div class="chatInfo">
+                    <div class="leftChatInfo"> <b>Типичный программ...</b> </div>
+                    <div class="rightChatInfo"> 16:16 PM </div>
+                    <div class="dawnChatInfo"> Зачем нужна статисти... </div>
+                </div>
+            </li>
+            <li>
+                <img src="./images/2.jpeg">
+                <div class="chatInfo">
+                    <div class="leftChatInfo"> <b>Life-Hack [Жизнь-Вз...</b> </div>
+                    <div class="rightChatInfo"> 16:16 PM </div>
+                    <div class="dawnChatInfo"> Восстановление IMEI... </div>
+                </div>
+            </li>
+            <li>
+                <img src="./images/usr.jpeg">
+                <div class="chatInfo">
+                    <div class="leftChatInfo"> <b>User #4</b> </div>
+                    <div class="rightChatInfo"> 16:16 PM </div>
+                    <div class="dawnChatInfo"> Outgoing Call </div>
+                </div>
+            </li>
+            <li>
+                <img src="./images/usr.jpeg">
+                <div class="chatInfo">
+                    <div class="leftChatInfo"> <b>User #5</b> </div>
+                    <div class="rightChatInfo"> 16:16 PM </div>
+                    <div class="dawnChatInfo"> joined Telegram </div>
+                </div>
+            </li>
+            <li>
+                <img src="./images/usr.jpeg">
+                <div class="chatInfo">
+                    <div class="leftChatInfo"> <b>User #6</b> </div>
+                    <div class="rightChatInfo"> 16:16 PM </div>
+                    <div class="dawnChatInfo"> <img src="./images/smile1.jpg"> Sticker </div>
+                </div>
+            </li>
+        </ul>
+    </aside>
+    
+    <main>
+        <ul id="chat">
+            <li>
+                <div class="chatImg">
+                    <img src="./images/usr.jpeg">
+                </div>
+                <div class="chatRight">
+                    <div class="chatFIO">
+                        <h2><b>User #1</b></h2>
+                        <h3>5:19:33 PM</h3>
+                    </div>
+                    <div class="chatMsg">
+                        Hello, I'm user #1
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="chatImg">
+                    <img src="./images/usr.jpeg">
+                </div>
+                <div class="chatRight">
+                    <div class="chatFIO">
+                        <h2><b>User #2</b></h2>
+                        <h3>5:19:55 PM</h3>
+                    </div>
+                    <div class="chatMsg">
+                        Hello, I'm user #2
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="chatImg">
+                    <img src="./images/usr.jpeg">
+                </div>
+                <div class="chatRight">
+                    <div class="chatFIO">
+                        <h2><b>User #3</b></h2>
+                        <h3>5:20:12 PM</h3>
+                    </div>
+                    <div class="chatMsg">
+                        Hello
+                        <div class="dopMessage"> 
+                            <div class="mesDopMessage"> my friends </div>
+                            <div class="timeDopMessage">5:20:13 PM</div>
+                        </div> <br>
+                        <div class="dopMessage"> 
+                            <div class="mesDopMessage"> I'm user #3 </div>
+                            <div class="timeDopMessage">5:20:14 PM</div>
+                        </div> <br>
+                        <div class="dopMessage"> 
+                            <div class="mesDopMessage"> And </div>
+                            <div class="timeDopMessage">5:20:15 PM</div>
+                        </div> <br>
+                        <div class="dopMessage"> 
+                            <div class="mesDopMessage"> It's </div>
+                            <div class="timeDopMessage">5:20:16 PM</div>
+                        </div> <br>
+                        <div class="dopMessage"> 
+                            <div class="mesDopMessage"> a </div>
+                            <div class="timeDopMessage">5:20:17 PM</div>
+                        </div> <br>
+                        <div class="dopMessage"> 
+                            <div class="mesDopMessage"> very </div>
+                            <div class="timeDopMessage">5:20:18 PM</div>
+                        </div> <br>
+                        <div class="dopMessage"> 
+                            <div class="mesDopMessage"> long </div>
+                            <div class="timeDopMessage">5:20:19 PM</div>
+                        </div> <br>
+                        <div class="dopMessage"> 
+                            <div class="mesDopMessage"> message </div>
+                            <div class="timeDopMessage">5:20:20 PM</div>
+                        </div> <br>              
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="chatImg">
+                    <img src="./images/usr.jpeg">
+                </div>
+                <div class="chatRight">
+                    <div class="chatFIO">
+                        <h2><b>User #1</b></h2>
+                        <h3>5:22:44 PM</h3>
+                    </div>
+                    <div class="chatMsg">
+                        How a u?
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="chatImg">
+                    <img src="./images/me.jpg">
+                </div>
+                <div class="chatRight">
+                    <div class="chatFIO">
+                        <h2><b>Vladislav</b></h2>
+                        <h3>5:41:11 PM</h3>
+                    </div>
+                    <div class="chatMsg">
+                        Hello All
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <footer>
+            <div class="footImgLeft">
+                <img src="./images/me.jpg">
+            </div>
+            <div class="footCenter">
+                <div class="footMessage">
+                    <textarea placeholder="Write a message..."></textarea>
+                </div>
+                <div class="footSmile">
+                    <img id="bigImg" src="./images/file.jpg">
+                    <img id="bigImg" src="./images/photo.jpg">
+                    <img id="bigImg" src="./images/micro.png">
+                    <img src="./images/smile1.jpg">
+                    <img src="./images/smile2.jpg">
+                    <img src="./images/smile3.jpg">
+                    <img src="./images/smile4.jpg">
+                    <img src="./images/smile5.jpg">
+                    <img src="./images/smile6.jpg">
+                    <img src="./images/smile7.jpg">
+                    <a href="#">Send</a>
+                </div>
+            </div>
+            <div class="footImgRight">
+                <img src="./images/groupChat.png">
+            </div>
+
+
+<!--
+
+            <img src="./images/me.jpg">
+            <textarea placeholder="Write a message..."></textarea>
+            <img id="bigImg" src="./images/file.jpg">
+            <img id="bigImg" src="./images/photo.jpg">
+            <img id="bigImg" src="./images/micro.png">
+            <img src="./images/smile1.jpg">
+            <img src="./images/smile2.jpg">
+            <img src="./images/smile3.jpg">
+            <img src="./images/smile4.jpg">
+            <img src="./images/smile5.jpg">
+            <img src="./images/smile6.jpg">
+            <img src="./images/smile7.jpg">
+            <a href="#">Send</a>
+
+            -->
+
+            
+        </footer>
+    </main>
+
+</div>
+
