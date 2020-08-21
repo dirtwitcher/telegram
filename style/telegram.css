@@ -162,7 +162,7 @@ aside ul{
     padding-left:0;
     margin:0;
     list-style-type:none;
-    overflow-y:scroll;
+    overflow-y:auto;
     height:100%;
 }
 aside li{
@@ -233,7 +233,7 @@ aside li .dawnChatInfo img{
 #chat{
     font: 13px/18px Tahoma,sans-serif,Arial,Helvetica;
     list-style-type:none;
-    overflow-y:scroll;
+    overflow-y:auto;
     height:calc(100% - 70px);
     margin-top: 0px;
     margin-bottom: 10px;
