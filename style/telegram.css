@@ -1,6 +1,7 @@
 *{
     box-sizing:border-box;
 }
+
 body{
     background-color:#e7ebf0;
     font-family:Arial;
@@ -8,25 +9,28 @@ body{
 }
 
 #container{
+    min-width: 320px;
+    min-height: 320px;
     max-width: 1010px;
-    min-width: 310px;
-    max-height: 600px;
+    max-height: 96%;
+    height: 100%;
+    width: 100%;
     background:#ffffff;
     margin:0 auto;
     font-size:0;
     overflow:hidden;
 }
+
 .mainHeader{
-    max-width: 1010px;
     margin: 0 auto;
     height: 48px;
     background: #5682a3;
+    font: 13px Tahoma,sans-serif,Arial,Helvetica;
 }
 .mainHeader .headLeft{
     float: left;
     width: 31%;
     box-sizing: border-box;
-    font: 13px Tahoma,sans-serif,Arial,Helvetica;
     position: relative;
     color: #fff;
     display: block;
@@ -52,7 +56,6 @@ body{
     width: 69%;
     white-space: nowrap;
     box-sizing: border-box;
-    font: 13px Tahoma,sans-serif,Arial,Helvetica;
     position: relative;
     color: #fff;
     display: block;
@@ -93,7 +96,7 @@ body{
 
 aside{
     width:31%;
-    height:800px;
+    height:calc(100% - 105px);
     background-color:#ffffff;
     display:inline-block;
     font: 13px Tahoma,sans-serif,Arial,Helvetica;
@@ -112,7 +115,8 @@ aside{
 
 main{
     width:69%;
-    height:940px;
+    height:calc(100% - 105px);
+    
     box-sizing: border-box;
     font: 13px Tahoma,sans-serif,Arial,Helvetica;
     color: black;
@@ -159,7 +163,7 @@ aside ul{
     margin:0;
     list-style-type:none;
     overflow-y:scroll;
-    height:62%;
+    height:100%;
 }
 aside li{
     padding:5px 0px;
@@ -178,7 +182,6 @@ aside li img{
     height: 50px;
 }
 aside li .chatInfo{
-    font: 13px Tahoma,sans-serif,Arial,Helvetica;
     display:inline-block;
     vertical-align:top;
     margin-top:4px;
@@ -231,7 +234,7 @@ aside li .dawnChatInfo img{
     font: 13px/18px Tahoma,sans-serif,Arial,Helvetica;
     list-style-type:none;
     overflow-y:scroll;
-    height:45%;
+    height:calc(100% - 70px);
     margin-top: 0px;
     margin-bottom: 10px;
 }
